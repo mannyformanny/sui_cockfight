@@ -1,0 +1,10 @@
+[package]
+name = "cockfight"
+version = "0.0.0"
+
+[dependencies]
+InitiaStdlib = { git = "https://github.com/initia-labs/movevm.git", subdir = "precompile/modules/initia_stdlib", rev = "3b64f1baa74fe2e93786f058469ababa85139b91" }
+
+[addresses]
+std =  "0x1"
+deployer = "0x3F4C26C0385D22009956EB3A4E8DBD095962485E"
